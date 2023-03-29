@@ -2,7 +2,7 @@ console.log("Hi");
 
 let wert = window.prompt("Schätzen Sie eine Nummer zwischen 1-10", "");
 console.log(wert);
-let comWert = Math.floor(Math.random() * 11)
+let comWert = Math.floor(Math.random() * 10) + 1;
 console.log(comWert);
 
 if (wert === comWert) {
